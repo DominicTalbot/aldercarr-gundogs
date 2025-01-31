@@ -1,31 +1,31 @@
-Free Responsive HTML5 Template
+# Aldercarr Gundogs Website
 
-Above Educational Bootstrap Responsive template is a modern clean multi-purpose html5 template built with valid HTML5 & CSS3. It's build on top of latest Bootstrap framework 3.3.1 fully responsive web compatible with multi browser and devices. This template can be used for multi-purpose needs like Educational Institutes, colleges, Schools, e-Learning, Training centre, Tutors, Charity, Primary School, business, consultancy, agency, personal portfolio, profile and mobile website.
+This website provides information about the training courses and services offered by Aldercarr Gundogs. The training programs are designed to enhance dog obedience, gundog skills, and overall handler-dog communication. The website includes sections for:
 
+- **Basic Obedience:** Training for foundational dog behavior, such as heel work and recall.
+- **Gundog Training:** Advanced training for working dogs, focusing on retrieval and teamwork.
+- **Whistle Training:** Improving communication between you and your dog through whistle commands.
+- **Advanced Recall:** Strengthening your dog’s recall in varied environments.
+- **Behavioral Adjustments:** Addressing common behavioral challenges.
+- **One-on-One Sessions:** Personalized training sessions based on the dog’s specific needs.
 
-Key features
--------------
-Twitter Bootstrap 3.3.1
-Clean & Developer-friendly HTML5 and CSS3 code
-100% Responsive Layout Design 
-Multi-purpose theme
-Google Fonts Support
-Font Awesome 
-Smooth Scrolling 
-Fully Customizable
-Contact Form
+## Features:
+- Responsive design for mobile and desktop views.
+- Clear layout for easy navigation.
+- Sections on courses, contact information, and customer testimonials.
 
+## Installation:
+1. Clone or download the repository.
+2. Open the `index.html` file in a web browser to view the site.
 
-Credits :
--------
-=> Design and developed: "WebThemez"  http://webthemez.com
-=> Photos used in template: **Unsplash** - http://unsplash.com
-=> For more free web themes: http://webthemez.com
-=> Framework : http://getbootstrap.com
+## Usage:
+- The website serves as an informational hub for potential clients to learn about available training courses and book appointments.
+- Links to social media profiles and contact details are provided in the footer for easy communication.
 
-License :
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+## License:
+This project is licensed under the MIT License.
 
-Note:
-All images user here is for demo purpose only, we are not responsible for any copyrights.
+## Contact:
+For more information or to book a session, please contact us at:
+- Email: email@domainname.com
+- Phone: (123) 456-789 - 1255-12584
