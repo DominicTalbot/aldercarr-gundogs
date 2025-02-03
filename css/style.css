@@ -490,7 +490,6 @@ section.callaction {
 #content {
 	position:relative;
 	background:#fff;
-	padding:50px 0 0px 0;
 }
 
 #content img {
@@ -1553,7 +1552,6 @@ article img.pull-right, article .align-right{
     padding-left: 0;
   }
 	.navbar-brand {
-		margin-top: 10px;
 		border-bottom: none;
 	}
 	.navbar-header {
@@ -1816,7 +1814,19 @@ body, html {
 
 /* Navbar */
 .navbar {
-    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.navbarMenu {
+	position: absolute;
     top: 0;
     left: 0;
     width: 100%;
