@@ -99,8 +99,8 @@
 							</div>
 
 							<button onclick="showSuccess()">Show Success</button>
-<button onclick="showError()">Show Error</button>
-<button onclick="hideAlerts()">Hide Alerts</button>
+							<button onclick="showError()">Show Error</button>
+							<button onclick="hideAlerts()">Hide Alerts</button>
 
 							<!-- Form -->
 							<form id="contact-form" role="form" novalidate="novalidate" netlify data-netlify="true">
@@ -366,12 +366,12 @@
 			document.getElementById('contactSuccess').classList.remove('hidden');
 			document.getElementById('contactError').classList.add('hidden');
 		}
-	
+
 		function showError() {
 			document.getElementById('contactError').classList.remove('hidden');
 			document.getElementById('contactSuccess').classList.add('hidden');
 		}
-	
+
 		function hideAlerts() {
 			document.getElementById('contactSuccess').classList.add('hidden');
 			document.getElementById('contactError').classList.add('hidden');
