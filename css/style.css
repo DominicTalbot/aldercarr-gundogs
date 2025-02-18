@@ -459,6 +459,39 @@ bottom: -30px;
 border-radius:0;
 }
 
+/* Add red border to invalid fields */
+.form-control.invalid {
+    border-color: #D9534F; /* Red border */
+    transition: border-color 0.4s ease-in-out; /* Smooth transition for border */
+}
+
+/* Error Message Styling */
+.error-message {
+    color: #D9534F; /* Red text */
+    font-size: 14px;
+    margin-top: 5px;
+    opacity: 0; /* Start hidden */
+    visibility: hidden; /* Start hidden */
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out; /* Smooth transition */
+}
+
+/* Slide-Down Animation for Error Messages */
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.error-message.visible {
+    opacity: 1; /* Fade in */
+    visibility: visible; /* Make visible */
+    animation: slideDown 0.4s ease-in-out; /* Slide down animation */
+}
 
 /* Testimonial
 ----------------------------------*/
@@ -2109,7 +2142,7 @@ body, html {
 
 /* Error Message Styling */
 .alert.alert-error {
-    background-color: #D9534F; /* Red background for errors */
+    background-color: #D9534F; /* Red background */
     color: #fff; /* White text */
     border: 1px solid #C9302C; /* Darker red border */
     border-radius: 5px;
@@ -2119,21 +2152,24 @@ body, html {
     transition: opacity 0.4s ease-in-out; /* Smooth fade-in/out */
 }
 
+/* Strong Text in Error Messages */
 .alert.alert-error strong {
     font-weight: 700;
 }
 
-/* Hidden State */
+/* Hidden State for Alerts */
 .alert.hidden {
-    display: none; /* Hide alerts by default */
+    visibility: hidden; /* Hide alerts by default */
     opacity: 0; /* Fade out effect */
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out; /* Smooth transition */
 }
 
-
+/* Icon Spacing */
 .alert i {
     margin-right: 10px;
 }
 
+/* Slide-Down Animation */
 @keyframes slideDown {
     from {
         transform: translateY(-20px);
@@ -2145,6 +2181,9 @@ body, html {
     }
 }
 
+/* Visible State for Alerts */
 .alert:not(.hidden) {
+    visibility: visible; /* Show alerts */
+    opacity: 1; /* Fade in effect */
     animation: slideDown 0.4s ease-in-out;
 }
