@@ -2198,3 +2198,120 @@ body, html {
     opacity: 1; /* Fade in effect */
     animation: slideDown 0.4s ease-in-out;
 }
+
+/* Terms and Conditions Page */
+.terms-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-content h3 {
+    color: #5C6E43; /* Green for headings */
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.terms-content p {
+    color: #555; /* Grey for text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.terms-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.terms-content ul li {
+    color: #555; /* Grey for text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Privacy Policy Page */
+.privacy-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-content h3 {
+    color: #5C6E43; /* Green for headings */
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.privacy-content p {
+    color: #555; /* Grey for text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.privacy-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.privacy-content ul li {
+    color: #555; /* Grey for text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.privacy-content address {
+    color: #555; /* Grey for text */
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.privacy-content a {
+    color: #5C6E43; /* Green for links */
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+
+.privacy-content a:hover {
+    color: #4A5A36; /* Darker green on hover */
+}
+
+/* Social Network Icons */
+.social-network {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+}
+
+.social-network li {
+    margin-left: 15px; /* Space between icons */
+}
+
+.social-network li a {
+    display: inline-block;
+    width: 40px; /* Icon size */
+    height: 40px; /* Icon size */
+    line-height: 40px; /* Center the icon vertically */
+    text-align: center; /* Center the icon horizontally */
+    background-color: #5C6E43; /* Green background */
+    color: #fff; /* White icon */
+    border-radius: 50%; /* Circular shape */
+    transition: all 0.4s ease-in-out; /* Smooth hover effect */
+}
+
+.social-network li a:hover {
+    background-color: #4A5A36; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.social-network li a i {
+    font-size: 20px; /* Icon size */
+    vertical-align: middle; /* Center the icon */
+}
