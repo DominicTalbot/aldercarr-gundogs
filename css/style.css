@@ -698,7 +698,7 @@ ul.breadcrumb li a:hover {
     transform: scale(1.05);
 }
 
-/* Contact Info */
+/* Contact Info Section */
 .contact-info {
     background: #fff;
     padding: 30px;
@@ -709,16 +709,20 @@ ul.breadcrumb li a:hover {
 .contact-info h3 {
     color: #5C6E43; /* Green for headings */
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .contact-info p {
     color: #555; /* Grey for text */
+    font-size: 16px;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
 .contact-info address {
     color: #555; /* Grey for text */
     font-style: normal;
+    margin-bottom: 37px;
 }
 
 .contact-info a {
@@ -729,6 +733,18 @@ ul.breadcrumb li a:hover {
 
 .contact-info a:hover {
     color: #4A5A36; /* Darker green on hover */
+}
+
+/* Person's Image */
+.person-image {
+	margin-bottom: 20px; /* Space below the image */
+	text-align: center; /* Center the image */
+}
+
+.person-image img {
+	max-width: 10%; /* Make the image smaller */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 form#contactform .validation {
@@ -1875,35 +1891,70 @@ padding:50px 0
 
 /* Call to Action Section */
 .cta-section {
-    background: #5C6E43;
-    padding: 60px 0;
-    color: #fff;
-    text-align: center;
+    background-image: url('/img/1-1.jpg'); /* Path to your image */
+	background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    padding: 80px 0; /* Add padding for spacing */
+    position: relative; /* Needed for the overlay */
+    min-height: 400px; /* Set a minimum height for the section */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+	margin-bottom: 60px;
+}
+
+.cta-overlay {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black overlay */
+    position: absolute; /* Position over the background image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
 }
 
 .cta-section h2 {
+    color: #fff; /* White text */
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .cta-section p {
+    color: #fff; /* White text */
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.cta-section .btn {
-    font-size: 18px;
-    padding: 15px 30px;
-    background: #2c3e50; /* Dark grey for button */
-    color: #fff;
+.cta-section .btn-primary {
+	background-color: rgba(92, 110, 67, 0.7); /* Transparent green button */
     border: none;
-    transition: all 0.4s ease-in-out; /* Smooth transition for buttons */
+    padding: 15px 30px;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out; /* Smooth hover effect */
 }
 
-.cta-section .btn:hover {
-    background: #5C6E43; /* Green for button hover */
-    transform: scale(1.05); /* Slightly enlarge the button */
+.cta-section .btn-primary:hover {
+    background-color: #4A5A36; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+@media (max-width: 767.98px) {
+    .cta-section {
+        min-height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .cta-section h2 {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .cta-section p {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+}
+
 
 .img-fluid {
     width: 100%;
@@ -2315,3 +2366,4 @@ body, html {
     font-size: 20px; /* Icon size */
     vertical-align: middle; /* Center the icon */
 }
+
